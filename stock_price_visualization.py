@@ -1,7 +1,11 @@
 import pandas as pd
+print('pandas==' + pd.__version__)
 import yfinance as yf
+print('yfinance==' + yf.__version__)
 import altair as alt
+print('altair==' + alt.__version__)
 import streamlit as st
+print('streamlit==' + st.__version__)
 
 st.title('米国株価可視化アプリ')
 
